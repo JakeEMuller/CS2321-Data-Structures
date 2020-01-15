@@ -39,8 +39,10 @@ class ArrayProblemsTest {
 	 */
 	@Test
 	void testFindKthLargest1() {
-		
-		fail("Not yet implemented"); // TODO
+		int[] nums = {3,2,3,1,2,4,5,5,6};
+		int kth = 4;
+		int expected = 4;
+		assertEquals(expected, ArrayProblems.findKthLargest(nums, kth));
 		
 	}
 
